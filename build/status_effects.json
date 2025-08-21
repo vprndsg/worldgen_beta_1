@@ -1,0 +1,44 @@
+{
+  "status_effects": [
+    {
+      "id": "st_1",
+      "name": "Inferno's Fury",
+      "effect": "Deals 10 damage to enemies within a small radius"
+    },
+    {
+      "id": "st_2",
+      "name": "Molten Shield",
+      "effect": "Increases defence by 20 for 5 seconds"
+    },
+    {
+      "id": "st_3",
+      "name": "Lava Speed",
+      "effect": "Boosts movement speed by 30% for 10 seconds"
+    },
+    {
+      "id": "st_4",
+      "name": "Burnt Out",
+      "effect": "Reduces attack power by 15% for 8 seconds"
+    },
+    {
+      "id": "st_5",
+      "name": "Poisonous Fumes",
+      "effect": "Deals 5 damage per second for 12 seconds"
+    },
+    {
+      "id": "st_6",
+      "name": "Heat Resistance",
+      "effect": "Reduces fire damage taken by 25% for 15 seconds"
+    },
+    {
+      "id": "st_7",
+      "name": "Cavern Camouflage",
+      "effect": "Increases stealth chance by 40% for 10 seconds"
+    },
+    {
+      "id": "st_8",
+      "name": "Ignition",
+      "effect": "Deals 20 damage to self and nearby enemies, stunning them for 2 seconds"
+    }
+  ]
+}

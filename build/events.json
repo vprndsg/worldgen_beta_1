@@ -1,0 +1,124 @@
+{
+  "events": [
+    {
+      "id": "ev_1",
+      "title": "Molten Cavern Festival",
+      "description": "The survivors of Molten Cavern are gathering to celebrate their resilience.",
+      "location": "z1"
+    },
+    {
+      "id": "ev_2",
+      "title": "Lava Flow Eruption",
+      "description": "A sudden surge in lava flow has blocked a key path in Lava Flow.",
+      "location": "z2"
+    },
+    {
+      "id": "ev_3",
+      "title": "Burnt Outcropping Discovery",
+      "description": "Explorers have stumbled upon an ancient ruin hidden within Burnt Outcropping.",
+      "location": "z3"
+    },
+    {
+      "id": "ev_4",
+      "title": "Survivor Rescue Mission",
+      "description": "A group of survivors is embarking on a perilous journey to rescue a stranded companion in Molten Cavern.",
+      "location": "z1"
+    },
+    {
+      "id": "ev_5",
+      "title": "Lava Elemental Sighting",
+      "description": "Travelers have reported encountering a powerful lava elemental roaming the depths of Lava Flow.",
+      "location": "z2"
+    },
+    {
+      "id": "ev_6",
+      "title": "Burnt Outcropping Expedition",
+      "description": "A team of adventurers is venturing into Burnt Outcropping to uncover its secrets and treasures.",
+      "location": "z3"
+    },
+    {
+      "id": "ev_7",
+      "title": "Molten Cavern Trade Fair",
+      "description": "Merchants from across the land are gathering in Molten Cavern to exchange rare goods and stories.",
+      "location": "z1"
+    },
+    {
+      "id": "ev_8",
+      "title": "Lava Flow Tunnel Collapse",
+      "description": "A section of Lava Flow's tunnel system has collapsed, trapping several travelers beneath the rubble.",
+      "location": "z2"
+    },
+    {
+      "id": "ev_9",
+      "title": "Burnt Outcropping Wildfire",
+      "description": "A raging wildfire is sweeping through Burnt Outcropping, threatening to engulf everything in its path.",
+      "location": "z3"
+    },
+    {
+      "id": "ev_10",
+      "title": "Survivor Reunion",
+      "description": "Long-lost friends and family are reuniting in Molten Cavern, sharing tales of their journeys and struggles.",
+      "location": "z1"
+    },
+    {
+      "id": "ev_11",
+      "title": "Lava Elemental Attack",
+      "description": "A group of travelers has been ambushed by a hostile lava elemental in Lava Flow.",
+      "location": "z2"
+    },
+    {
+      "id": "ev_12",
+      "title": "Burnt Outcropping Archaeological Dig",
+      "description": "Scholars are excavating an ancient site in Burnt Outcropping, uncovering clues about the world's mysterious past.",
+      "location": "z3"
+    },
+    {
+      "id": "ev_13",
+      "title": "Molten Cavern Music Festival",
+      "description": "The sounds of laughter and music fill the air as Molten Cavern hosts a vibrant music festival.",
+      "location": "z1"
+    },
+    {
+      "id": "ev_14",
+      "title": "Lava Flow Exploration",
+      "description": "A team of brave explorers is delving deeper into Lava Flow, seeking to chart its unexplored territories.",
+      "location": "z2"
+    },
+    {
+      "id": "ev_15",
+      "title": "Burnt Outcropping Survival Challenge",
+      "description": "Adventurers are competing in a survival challenge, testing their skills and endurance in the harsh environment of Burnt Outcropping.",
+      "location": "z3"
+    },
+    {
+      "id": "ev_16",
+      "title": "Molten Cavern Storytelling Night",
+      "description": "Travelers are gathering around the campfire in Molten Cavern, sharing tales of their adventures and the world's lore.",
+      "location": "z1"
+    },
+    {
+      "id": "ev_17",
+      "title": "Lava Flow Rescue Operation",
+      "description": "A rescue team is navigating the treacherous terrain of Lava Flow to save a group of stranded travelers.",
+      "location": "z2"
+    },
+    {
+      "id": "ev_18",
+      "title": "Burnt Outcropping Treasure Hunt",
+      "description": "Treasure seekers are scouring Burnt Outcropping, searching for hidden riches and artifacts.",
+      "location": "z3"
+    },
+    {
+      "id": "ev_19",
+      "title": "Molten Cavern Feast",
+      "description": "The community of Molten Cavern is coming together to share a grand feast, celebrating their unity and strength.",
+      "location": "z1"
+    },
+    {
+      "id": "ev_20",
+      "title": "Lava Flow Convergence",
+      "description": "A rare celestial event is occurring in Lava Flow, drawing travelers and scholars from far and wide to witness the spectacle.",
+      "location": "z2"
+    }
+  ]
+}

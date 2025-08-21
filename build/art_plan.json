@@ -1,0 +1,19 @@
+{
+  "sprites": [
+    {
+      "kind": "player",
+      "count": 1
+    },
+    {
+      "kind": "survivor",
+      "count": 1
+    },
+    {
+      "kind": "lava elemental",
+      "count": 1
+    }
+  ],
+  "palettes": [
+    "fire"
+  ]
+}

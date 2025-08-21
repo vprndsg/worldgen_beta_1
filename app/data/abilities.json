@@ -1,0 +1,54 @@
+{
+  "abilities": [
+    {
+      "id": "ab_1",
+      "name": "Ember Shield",
+      "description": "Grants a protective barrier that absorbs damage and heals the player over time."
+    },
+    {
+      "id": "ab_2",
+      "name": "Inferno Blast",
+      "description": "Unleashes a wave of intense flames that deal massive damage to all enemies within its area of effect."
+    },
+    {
+      "id": "ab_3",
+      "name": "Magma Speed",
+      "description": "Increases the player's movement speed and jump height, allowing for quicker navigation through treacherous terrain."
+    },
+    {
+      "id": "ab_4",
+      "name": "Lava Resistance",
+      "description": "Grants temporary immunity to fire-based damage and increases the player's overall resilience to heat."
+    },
+    {
+      "id": "ab_5",
+      "name": "Healing Flames",
+      "description": "Channels a soothing flame that restores health to the player and nearby allies."
+    },
+    {
+      "id": "ab_6",
+      "name": "Smoke Screen",
+      "description": "Creates a cloud of thick smoke that obscures vision and allows the player to escape or reposition undetected."
+    },
+    {
+      "id": "ab_7",
+      "name": "Volcanic Fury",
+      "description": "Unleashes a powerful earthquake that stuns and damages enemies, while also stunning the player for a short duration."
+    },
+    {
+      "id": "ab_8",
+      "name": "Fiery Vigor",
+      "description": "Increases the player's strength and agility, allowing for more effective melee combat and increased survivability."
+    },
+    {
+      "id": "ab_9",
+      "name": "Pyroclastic Flow",
+      "description": "Creates a fast-moving wave of hot ash and rock that deals damage to enemies and can be used to traverse the environment quickly."
+    },
+    {
+      "id": "ab_10",
+      "name": "Ignition",
+      "description": "Sets flammable objects ablaze, creating a distraction or igniting environmental hazards to harm enemies."
+    }
+  ]
+}

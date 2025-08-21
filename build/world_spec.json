@@ -1,0 +1,29 @@
+{
+  "title": "Inferno Odyssey",
+  "zones": [
+    {
+      "id": "z1",
+      "name": "Molten Cavern"
+    },
+    {
+      "id": "z2",
+      "name": "Lava Flow"
+    },
+    {
+      "id": "z3",
+      "name": "Burnt Outcropping"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "npc1",
+      "kind": "survivor",
+      "home_zone": "z1"
+    },
+    {
+      "id": "npc2",
+      "kind": "lava elemental",
+      "home_zone": "z2"
+    }
+  ]
+}

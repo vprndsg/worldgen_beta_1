@@ -1,0 +1,204 @@
+{
+  "items": [
+    {
+      "item_id": "item_1",
+      "name": "Magma Bread",
+      "category": "consumable"
+    },
+    {
+      "item_id": "item_2",
+      "name": "Inferno Sword",
+      "category": "weapon"
+    },
+    {
+      "item_id": "item_3",
+      "name": "Lava Shield",
+      "category": "armor"
+    },
+    {
+      "item_id": "item_4",
+      "name": "Quest for the Elemental Core",
+      "category": "quest"
+    },
+    {
+      "item_id": "item_5",
+      "name": "Fiery Stew",
+      "category": "consumable"
+    },
+    {
+      "item_id": "item_6",
+      "name": "Blazing Axe",
+      "category": "weapon"
+    },
+    {
+      "item_id": "item_7",
+      "name": "Heat Resistant Armor",
+      "category": "armor"
+    },
+    {
+      "item_id": "item_8",
+      "name": "Find the Lost Survivor",
+      "category": "quest"
+    },
+    {
+      "item_id": "item_9",
+      "name": "Burnt Rations",
+      "category": "consumable"
+    },
+    {
+      "item_id": "item_10",
+      "name": "Molten Dagger",
+      "category": "weapon"
+    },
+    {
+      "item_id": "item_11",
+      "name": "Flameproof Helmet",
+      "category": "armor"
+    },
+    {
+      "item_id": "item_12",
+      "name": "Uncover the Secrets of the Molten Cavern",
+      "category": "quest"
+    },
+    {
+      "item_id": "item_13",
+      "name": "Lava Cake",
+      "category": "consumable"
+    },
+    {
+      "item_id": "item_14",
+      "name": "Inferno Staff",
+      "category": "weapon"
+    },
+    {
+      "item_id": "item_15",
+      "name": "Magmatic Breastplate",
+      "category": "armor"
+    },
+    {
+      "item_id": "item_16",
+      "name": "Negotiate with the Lava Elemental",
+      "category": "quest"
+    },
+    {
+      "item_id": "item_17",
+      "name": "Smoldering Soup",
+      "category": "consumable"
+    },
+    {
+      "item_id": "item_18",
+      "name": "Ember Sword",
+      "category": "weapon"
+    },
+    {
+      "item_id": "item_19",
+      "name": "Flare Armor",
+      "category": "armor"
+    },
+    {
+      "item_id": "item_20",
+      "name": "Explore the Burnt Outcropping",
+      "category": "quest"
+    },
+    {
+      "item_id": "item_21",
+      "name": "Charred Meat",
+      "category": "consumable"
+    },
+    {
+      "item_id": "item_22",
+      "name": "Blazing Bow",
+      "category": "weapon"
+    },
+    {
+      "item_id": "item_23",
+      "name": "Ignition Armor",
+      "category": "armor"
+    },
+    {
+      "item_id": "item_24",
+      "name": "Rescue the Trapped Survivor",
+      "category": "quest"
+    },
+    {
+      "item_id": "item_25",
+      "name": "Magma Energy Drink",
+      "category": "consumable"
+    },
+    {
+      "item_id": "item_26",
+      "name": "Inferno Hammer",
+      "category": "weapon"
+    },
+    {
+      "item_id": "item_27",
+      "name": "Lava Proof Boots",
+      "category": "armor"
+    },
+    {
+      "item_id": "item_28",
+      "name": "Uncover the Secrets of the Lava Flow",
+      "category": "quest"
+    },
+    {
+      "item_id": "item_29",
+      "name": "Fiery Trail Mix",
+      "category": "consumable"
+    },
+    {
+      "item_id": "item_30",
+      "name": "Ember Staff",
+      "category": "weapon"
+    },
+    {
+      "item_id": "item_31",
+      "name": "Magmatic Gauntlets",
+      "category": "armor"
+    },
+    {
+      "item_id": "item_32",
+      "name": "Negotiate with the Survivor Leader",
+      "category": "quest"
+    },
+    {
+      "item_id": "item_33",
+      "name": "Smoldering Jerky",
+      "category": "consumable"
+    },
+    {
+      "item_id": "item_34",
+      "name": "Blazing Dagger",
+      "category": "weapon"
+    },
+    {
+      "item_id": "item_35",
+      "name": "Flare Helmet",
+      "category": "armor"
+    },
+    {
+      "item_id": "item_36",
+      "name": "Explore the Molten Cavern Depths",
+      "category": "quest"
+    },
+    {
+      "item_id": "item_37",
+      "name": "Charred Fruits",
+      "category": "consumable"
+    },
+    {
+      "item_id": "item_38",
+      "name": "Inferno Axe",
+      "category": "weapon"
+    },
+    {
+      "item_id": "item_39",
+      "name": "Ignition Shield",
+      "category": "armor"
+    },
+    {
+      "item_id": "item_40",
+      "name": "Find the Lost Lava Elemental Artifact",
+      "category": "quest"
+    }
+  ]
+}

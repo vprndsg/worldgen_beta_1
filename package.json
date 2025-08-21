@@ -1,0 +1,10 @@
+{
+  "name": "ai-game-world-v7",
+  "version": "1.0.0",
+  "description": "AI-generated world with richer quests and dialogues",
+  "type": "module",
+  "scripts": {
+    "pipeline": "node scripts/run_pipeline.js",
+    "serve": "npx http-server ./app -p 5000 -c-1"
+  }
+}

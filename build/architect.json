@@ -1,0 +1,23 @@
+{
+  "theme": "the ground is lava",
+  "palette": "DB32",
+  "tile_size": 32,
+  "zones": [
+    {
+      "id": "z1",
+      "name": "Molten Cavern"
+    },
+    {
+      "id": "z2",
+      "name": "Lava Flow"
+    },
+    {
+      "id": "z3",
+      "name": "Burnt Outcropping"
+    }
+  ],
+  "npc_kinds": [
+    "survivor",
+    "lava elemental"
+  ]
+}

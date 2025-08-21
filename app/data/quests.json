@@ -1,0 +1,85 @@
+{
+  "quests": [
+    {
+      "id": "q1",
+      "title": "Surviving the Inferno",
+      "is_main": true,
+      "steps": [
+        {
+          "goal": "Find a safe path through the Molten Cavern",
+          "location_hint": "z1",
+          "requires_item_ids": []
+        },
+        {
+          "goal": "Gather information about the Lava Flow from a survivor",
+          "location_hint": "z1",
+          "requires_item_ids": []
+        },
+        {
+          "goal": "Retrieve a heat-resistant shield from the Burnt Outcropping",
+          "location_hint": "z3",
+          "requires_item_ids": [
+            "item_1"
+          ]
+        },
+        {
+          "goal": "Deliver the heat-resistant shield to a survivor in the Molten Cavern",
+          "location_hint": "z1",
+          "requires_item_ids": [
+            "item_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "title": "Lava Elemental's Secret",
+      "is_main": false,
+      "steps": [
+        {
+          "goal": "Investigate strange occurrences in the Lava Flow",
+          "location_hint": "z2",
+          "requires_item_ids": []
+        },
+        {
+          "goal": "Talk to a lava elemental about the source of the lava",
+          "location_hint": "z2",
+          "requires_item_ids": []
+        },
+        {
+          "goal": "Bring a rare mineral from the Burnt Outcropping to the lava elemental",
+          "location_hint": "z2",
+          "requires_item_ids": [
+            "item_2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "title": "Escape the Inferno",
+      "is_main": false,
+      "steps": [
+        {
+          "goal": "Find a map that leads to a safe exit in the Molten Cavern",
+          "location_hint": "z1",
+          "requires_item_ids": []
+        },
+        {
+          "goal": "Gather three bottles of water from the Burnt Outcropping",
+          "location_hint": "z3",
+          "requires_item_ids": [
+            "item_3",
+            "item_4",
+            "item_5"
+          ]
+        },
+        {
+          "goal": "Use the map to navigate through the Lava Flow and reach the exit",
+          "location_hint": "z2",
+          "requires_item_ids": []
+        }
+      ]
+    }
+  ]
+}

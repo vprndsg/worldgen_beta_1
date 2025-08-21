@@ -1,0 +1,612 @@
+{
+  "dialogues": [
+    {
+      "id": "d1",
+      "nodes": [
+        {
+          "node_id": "n1",
+          "speaker": "npc1",
+          "text": "Welcome, traveler. I've been stuck in this Molten Cavern for what feels like an eternity.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "What's your story?",
+              "to_id": "n2",
+              "grants_item_ids": [],
+              "tags": []
+            },
+            {
+              "choice_text": "I'm just passing through.",
+              "to_id": "n5",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n2",
+          "speaker": "npc1",
+          "text": "I was exploring these caverns when I stumbled upon a hidden chamber. Unfortunately, the entrance collapsed behind me.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "That sounds terrifying. Can I help you find a way out?",
+              "to_id": "n3",
+              "grants_item_ids": [],
+              "tags": []
+            },
+            {
+              "choice_text": "You should have been more careful.",
+              "to_id": "n6",
+              "grants_item_ids": [],
+              "tags": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "n3",
+          "speaker": "npc1",
+          "text": "Actually, I think I found a possible exit. But it's blocked by a pile of rubble. If you could help me clear it, I'd be forever grateful.",
+          "grants_item_ids": [
+            "rubble_clearing_tool"
+          ],
+          "options": [
+            {
+              "choice_text": "I'll help you clear the rubble.",
+              "to_id": "n4",
+              "grants_item_ids": [],
+              "tags": []
+            },
+            {
+              "choice_text": "I'm not interested in helping you.",
+              "to_id": "n7",
+              "grants_item_ids": [],
+              "tags": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "n4",
+          "speaker": "npc1",
+          "text": "Thank you so much for your help! With this rubble clearing tool, I should be able to make my way out of here.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "You're welcome. Be careful on your journey.",
+              "to_id": "n8",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n5",
+          "speaker": "npc1",
+          "text": "Be careful, traveler. The Lava Flow zone is just ahead, and it's not a place you want to get stuck in.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "I'll be fine. I've dealt with lava before.",
+              "to_id": "n6",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n6",
+          "speaker": "npc1",
+          "text": "Suit yourself, traveler. Just don't say I didn't warn you.",
+          "grants_item_ids": [],
+          "options": []
+        },
+        {
+          "node_id": "n7",
+          "speaker": "npc1",
+          "text": "Fine, be that way. But don't come crying to me when you're stuck in this cavern forever.",
+          "grants_item_ids": [],
+          "options": []
+        },
+        {
+          "node_id": "n8",
+          "speaker": "npc1",
+          "text": "May the road rise up to meet you, traveler. May your journey be safe and successful.",
+          "grants_item_ids": [],
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "nodes": [
+        {
+          "node_id": "n9",
+          "speaker": "npc2",
+          "text": "You dare to enter my domain, mortal?",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "I mean no disrespect. I'm just passing through.",
+              "to_id": "n10",
+              "grants_item_ids": [],
+              "tags": []
+            },
+            {
+              "choice_text": "I'm here to challenge you, lava elemental!",
+              "to_id": "n14",
+              "grants_item_ids": [],
+              "tags": [
+                "hostile"
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "n10",
+          "speaker": "npc2",
+          "text": "Very well, mortal. I will let you pass... for now. But be warned: the Burnt Outcropping zone is treacherous, even for one such as myself.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "Thank you for your warning. I'll be careful.",
+              "to_id": "n11",
+              "grants_item_ids": [],
+              "tags": []
+            },
+            {
+              "choice_text": "I don't need your warnings. I can handle myself.",
+              "to_id": "n15",
+              "grants_item_ids": [],
+              "tags": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "n11",
+          "speaker": "npc2",
+          "text": "See that you are, mortal. The Burnt Outcropping is no place for the faint of heart.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "I'll keep that in mind. Thanks again for your warning.",
+              "to_id": "n12",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n12",
+          "speaker": "npc2",
+          "text": "May the flames guide you, mortal. May your journey be... enlightening.",
+          "grants_item_ids": [],
+          "options": []
+        },
+        {
+          "node_id": "n14",
+          "speaker": "npc2",
+          "text": "Foolish mortal! You think you can challenge me? I will reduce you to ashes!",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "Bring it on, lava elemental!",
+              "to_id": "n16",
+              "grants_item_ids": [],
+              "tags": [
+                "hostile"
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "n15",
+          "speaker": "npc2",
+          "text": "We'll see about that, mortal. You're no match for the power of the lava.",
+          "grants_item_ids": [],
+          "options": []
+        },
+        {
+          "node_id": "n16",
+          "speaker": "npc2",
+          "text": "You are... formidable, mortal. But ultimately, no match for my power.",
+          "grants_item_ids": [],
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "nodes": [
+        {
+          "node_id": "n17",
+          "speaker": "npc1",
+          "text": "I've been thinking... maybe there's a way to escape this cavern after all.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "What did you have in mind?",
+              "to_id": "n18",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n18",
+          "speaker": "npc1",
+          "text": "I found an old map that seems to point to a hidden exit. But I'll need your help to decipher it.",
+          "grants_item_ids": [
+            "old_map"
+          ],
+          "options": [
+            {
+              "choice_text": "Let me take a look.",
+              "to_id": "n19",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n19",
+          "speaker": "npc1",
+          "text": "Ah, I see! The map is pointing to a small crevice in the wall. If we can make our way through it, we might just find our way out.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "Let's do it!",
+              "to_id": "n20",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n20",
+          "speaker": "npc1",
+          "text": "We did it! We're finally out of this cavern!",
+          "grants_item_ids": [],
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "nodes": [
+        {
+          "node_id": "n21",
+          "speaker": "npc2",
+          "text": "Mortal, I sense that you are not like the others. You have a certain... spark within you.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "What do you mean?",
+              "to_id": "n22",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n22",
+          "speaker": "npc2",
+          "text": "I mean that you have the potential to wield the power of the lava. Would you like to learn more?",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "Yes, I'm interested.",
+              "to_id": "n23",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n23",
+          "speaker": "npc2",
+          "text": "Very well, mortal. Let us begin your training. But be warned: the power of the lava is not to be trifled with.",
+          "grants_item_ids": [
+            "lava_magic_book"
+          ],
+          "options": [
+            {
+              "choice_text": "I'm ready to learn.",
+              "to_id": "n24",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n24",
+          "speaker": "npc2",
+          "text": "Then let us begin. The power of the lava awaits you, mortal.",
+          "grants_item_ids": [],
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "nodes": [
+        {
+          "node_id": "n25",
+          "speaker": "npc1",
+          "text": "I've been thinking... maybe we can work together to escape this place.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "What did you have in mind?",
+              "to_id": "n26",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n26",
+          "speaker": "npc1",
+          "text": "I found a small key that might unlock a door in the Lava Flow zone. But I'll need your help to get there.",
+          "grants_item_ids": [
+            "small_key"
+          ],
+          "options": [
+            {
+              "choice_text": "Let's do it!",
+              "to_id": "n27",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n27",
+          "speaker": "npc1",
+          "text": "We did it! We're finally in the Lava Flow zone!",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "Now what?",
+              "to_id": "n28",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n28",
+          "speaker": "npc1",
+          "text": "Now we need to find the door that the key unlocks. It should be around here somewhere.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "Let's search for it.",
+              "to_id": "n29",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n29",
+          "speaker": "npc1",
+          "text": "Ah, there it is! The door is unlocked. Let's see what's on the other side.",
+          "grants_item_ids": [],
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "nodes": [
+        {
+          "node_id": "n30",
+          "speaker": "npc2",
+          "text": "Mortal, I sense that you are strong. But are you strong enough to defeat the challenges of the Burnt Outcropping?",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "I'm willing to try.",
+              "to_id": "n31",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n31",
+          "speaker": "npc2",
+          "text": "Very well, mortal. Let us see how you fare against the challenges of the Burnt Outcropping.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "Bring it on!",
+              "to_id": "n32",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n32",
+          "speaker": "npc2",
+          "text": "Then let us begin. The challenges of the Burnt Outcropping await you, mortal.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "I'm ready.",
+              "to_id": "n33",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n33",
+          "speaker": "npc2",
+          "text": "The first challenge is to navigate the treacherous terrain of the Burnt Outcropping. Can you make it through?",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "I'll try my best.",
+              "to_id": "n34",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n34",
+          "speaker": "npc2",
+          "text": "Then let us see how you fare, mortal. The terrain of the Burnt Outcropping is unforgiving.",
+          "grants_item_ids": [],
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "d7",
+      "nodes": [
+        {
+          "node_id": "n35",
+          "speaker": "npc1",
+          "text": "I've been thinking... maybe there's a way to make this cavern more habitable.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "What did you have in mind?",
+              "to_id": "n36",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n36",
+          "speaker": "npc1",
+          "text": "I found a small device that can purify the air in this cavern. But I'll need your help to activate it.",
+          "grants_item_ids": [
+            "air_purifier"
+          ],
+          "options": [
+            {
+              "choice_text": "Let's do it!",
+              "to_id": "n37",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n37",
+          "speaker": "npc1",
+          "text": "We did it! The air in this cavern is now breathable.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "Now what?",
+              "to_id": "n38",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n38",
+          "speaker": "npc1",
+          "text": "Now we can start to make this cavern more habitable. Let's see what other improvements we can make.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "Let's get started.",
+              "to_id": "n39",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n39",
+          "speaker": "npc1",
+          "text": "Then let us begin, mortal. The cavern awaits our improvements.",
+          "grants_item_ids": [],
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "d8",
+      "nodes": [
+        {
+          "node_id": "n40",
+          "speaker": "npc2",
+          "text": "Mortal, I sense that you are curious. But are you curious enough to uncover the secrets of the Inferno Odyssey?",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "I'm willing to try.",
+              "to_id": "n41",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n41",
+          "speaker": "npc2",
+          "text": "Very well, mortal. Let us see how you fare against the challenges of the Inferno Odyssey.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "Bring it on!",
+              "to_id": "n42",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n42",
+          "speaker": "npc2",
+          "text": "Then let us begin. The challenges of the Inferno Odyssey await you, mortal.",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "I'm ready.",
+              "to_id": "n43",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n43",
+          "speaker": "npc2",
+          "text": "The first challenge is to navigate the treacherous terrain of the Molten Cavern. Can you make it through?",
+          "grants_item_ids": [],
+          "options": [
+            {
+              "choice_text": "I'll try my best.",
+              "to_id": "n44",
+              "grants_item_ids": [],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "node_id": "n44",
+          "speaker": "npc2",
+          "text": "Then let us see how you fare, mortal. The terrain of the Molten Cavern is unforgiving.",
+          "grants_item_ids": [],
+          "options": []
+        }
+      ]
+    }
+  ]
+}
